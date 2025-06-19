@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +16,6 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "jest": "^30.0.2",
-    "prisma": "^6.10.1",
-    "supertest": "^7.1.1"
+    "prisma": "^6.10.1"
   }
 }
